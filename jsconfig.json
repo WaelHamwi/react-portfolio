@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".", // Set the base URL for module resolution
+      "paths": {
+        "@/*": ["src/*"] // Set up path aliases
+      }
+    },
+    "include": ["src"], // Specify which files to include
+    "exclude": ["node_modules", "dist", "public"] // Specify which files/directories to exclude
+  }
+  
