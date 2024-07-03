@@ -34,7 +34,7 @@ Uses SWC for Fast Refresh. Ideal for users looking for performance optimizations
 
 🚀 Getting Started 🚀
 # Clone the repository
-git clone [[https://github.com/your-username/react-vite-template.git](https://github.com/WaelHamwi/react-portfolio)](https://github.com/WaelHamwi/react-portfolio)
+git clone [(https://github.com/WaelHamwi/react-portfolio)]
 cd react-vite-template
 
 # Install dependencies
