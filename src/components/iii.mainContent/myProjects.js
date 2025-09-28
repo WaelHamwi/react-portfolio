@@ -4,10 +4,10 @@ export const myProjects = [
     description:
       "This project demonstrates advanced features and technologies. However, due to company policies, the code cannot be shared publicly.",
     category: ["laravel", "Filament", "react", "nextjs", "SEO"],
-    imgPath: "./images/restricted-project.png",
+    imgPath: "./images/Filament.png",
     demo: "https://drive.google.com/file/d/1KWVOJkcmIfGf9qQpLtCgfj4-5_jPpzyC/view?usp=drive_link",
     item: "a",
-    note: "Code is not applicable for sharing due to company's policies."
+    note: "Code is not applicable company's policies."
   },
   {
     projectTitle: "POS and E-Commerce Management System",
