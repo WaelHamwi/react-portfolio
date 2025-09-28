@@ -17,3 +17,6 @@ npm run build
 npm install -g firebase-tools
 firebase init hosting
 firebase deploy --only hosting
+
+في حال حدوث مشكلة بالكود لايقبل الاستضافة
+Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection.
