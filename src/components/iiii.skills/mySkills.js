@@ -1,27 +1,37 @@
 import {
-    faBootstrap,
-    faGithub,
-    faLaravel,
-    faPython,
-    faReact,
-    faWebflow,
-    faWordpress,
-  } from "@fortawesome/free-brands-svg-icons";
-  
-  import { 
-    faProjectDiagram,
-    faPuzzlePiece,
-    faRobot,
-    faRocket,
-    faUserShield,
-    faSpinner,
-    faCoffee,
-    faServer
-  } from "@fortawesome/free-solid-svg-icons";
-  import { faPhp } from "@fortawesome/free-brands-svg-icons";
+  faBootstrap,
+  faGithub,
+  faLaravel,
+  faPython,
+  faReact,
+  faWebflow,
+  faWordpress,
+  faCss3Alt,
+} from "@fortawesome/free-brands-svg-icons";
 
+import {
+  faProjectDiagram,
+  faPuzzlePiece,
+  faRobot,
+  faRocket,
+  faUserShield,
+  faSpinner,
+  faCoffee,
+  faServer,
+  faCode,
+  faFolderOpen,
+  faTerminal,
+  faDatabase,
+} from "@fortawesome/free-solid-svg-icons";
+import { faPhp } from "@fortawesome/free-brands-svg-icons";
 
 export const skills = [
+  {
+    name: "Filament",
+    imgSrc: "./images/filament.jfif",
+    icon: faFilament,
+    info: "Filament is a robust admin panel for Laravel applications that helps streamline backend development, offering a clean interface and powerful features.",
+  },
   {
     name: "Laravel",
     imgSrc: "./images/Laravel-Logo.png",
@@ -117,5 +127,65 @@ export const skills = [
     imgSrc: "./images/server.jpg",
     icon: faServer,
     info: "Specializing in maintaining and optimizing server infrastructure for smooth operations and high performance. Expertise includes diagnosing and resolving issues, proactive measures for reliability and security, troubleshooting, capacity planning, performance tuning, and security best practices.",
+  },
+  {
+    name: "Sass",
+    imgSrc: "./images/SASS.png",
+    icon: faCss3Alt,
+    info: "Sass has enhanced my CSS styling capabilities by allowing me to use variables, nested rules, and mixins, making my stylesheets more maintainable and efficient.",
+  },
+  {
+    name: "TypeScript",
+    imgSrc: "./images/typescript.png",
+    icon: faCode,
+    info: "TypeScript has provided me with a robust type system for JavaScript, improving my development experience with better tooling, type checking, and clearer code.",
+  },
+  {
+    name: "Next.js",
+    imgSrc: "./images/next-js.svg",
+    icon: faFolderOpen,
+    info: "Next.js has enabled me to build server-rendered React applications with ease, offering features like static site generation and server-side rendering for optimal performance and SEO.",
+  },
+  {
+    name: "Tailwind CSS",
+    imgSrc: "./images/tailwind-css.svg",
+    icon: faCss3Alt,
+    info: "Tailwind CSS has transformed my approach to styling by providing a utility-first framework that allows for rapid and flexible design without leaving my HTML.",
+  },
+  {
+    name: "Express.js",
+    imgSrc: "./images/express.svg",
+    icon: faServer,
+    info: "Express.js has simplified the development of server-side applications with its minimal and flexible approach, allowing me to build RESTful APIs and web applications efficiently.",
+  },
+  {
+    name: "Node.js",
+    imgSrc: "./images/nodejs.png",
+    icon: faTerminal,
+    info: "Node.js has enabled me to run JavaScript on the server side, allowing for the development of scalable network applications and server-side logic with a unified JavaScript codebase.",
+  },
+  {
+    name: "MongoDB",
+    imgSrc: "./images/mongodb.svg",
+    icon: faDatabase,
+    info: "MongoDB's NoSQL database has been a powerful tool for managing and querying large datasets, providing flexibility with JSON-like documents and easy scalability.",
+  },
+  {
+    name: "Redux",
+    imgSrc: "./images/redux-logo.svg",
+    icon: faCode,
+    info: "Redux has provided a predictable state container for JavaScript apps, allowing me to manage and centralize application state efficiently, particularly in complex React applications.",
+  },
+  {
+    name: "Convex",
+    imgSrc: "./images/convex.png",
+    icon: faServer,
+    info: "Convex simplifies serverless application development with a focus on minimal configuration and real-time updates. It integrates seamlessly with frontend frameworks, streamlining the development process.",
+  },
+  {
+    name: "Alpine.js",
+    imgSrc: "./images/alpine.svg",
+    icon: faServer,
+    info: "Convex simplifies serverless application development with a focus on minimal configuration and real-time updates. It integrates seamlessly with frontend frameworks, streamlining the development process.",
   },
 ];

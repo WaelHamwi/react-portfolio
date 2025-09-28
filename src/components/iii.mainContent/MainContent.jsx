@@ -1,20 +1,24 @@
 import React, { useState } from "react";
 import { myProjects } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
+
 const MainContent = () => {
   const [filteredProjects, setFilteredProjects] = useState(myProjects);
   const [currentActivate, setActivate] = useState("all");
+
   const filterProjectsByCategory = (category) => {
     const filtered = myProjects.filter((item) => {
       return item.category.includes(category);
     });
     setFilteredProjects(filtered);
   };
+
   const toggleZoom = (index) => {
     const updatedProjects = [...filteredProjects];
     updatedProjects[index].zoomed = !updatedProjects[index].zoomed;
     setFilteredProjects(updatedProjects);
   };
+
   return (
     <main className="flex" id="projects">
       <section className="left-main flex">
@@ -81,6 +85,71 @@ const MainContent = () => {
         >
           Data Mining
         </button>
+        <button
+          className={currentActivate === "SASS" ? "active" : null}
+          onClick={() => {
+            filterProjectsByCategory("sass");
+            setActivate("SASS");
+          }}
+        >
+          sass
+        </button>
+        <button
+          className={currentActivate === "tailwindcss" ? "active" : null}
+          onClick={() => {
+            filterProjectsByCategory("tailwindcss");
+            setActivate("tailwindcss");
+          }}
+        >
+          tailwindcss
+        </button>
+        <button
+          className={currentActivate === "typescript" ? "active" : null}
+          onClick={() => {
+            filterProjectsByCategory("typescript");
+            setActivate("typescript");
+          }}
+        >
+          next/
+          Typescript js
+        </button>
+        <button
+          className={currentActivate === "Nodejs" ? "active" : null}
+          onClick={() => {
+            filterProjectsByCategory("Nodejs");
+            setActivate("Nodejs");
+          }}
+        >
+          next/
+          NodeJs js
+        </button>
+        <button
+          className={currentActivate === "SEO" ? "active" : null}
+          onClick={() => {
+            filterProjectsByCategory("SEO");
+            setActivate("SEO");
+          }}
+        >
+          SEO
+        </button>
+        <button
+          className={currentActivate === "Filament" ? "active" : null}
+          onClick={() => {
+            filterProjectsByCategory("Filament");
+            setActivate("Filament");
+          }}
+        >
+          Filament
+        </button>
+        <button
+          className={currentActivate === "nextjs" ? "active" : null}
+          onClick={() => {
+            filterProjectsByCategory("nextjs");
+            setActivate("nextjs");
+          }}
+        >
+          Next.js
+        </button>
       </section>
       <section className="right-main flex">
         <AnimatePresence>
@@ -100,6 +169,9 @@ const MainContent = () => {
                 <div className="box">
                   <h1 className="title">{item.projectTitle}</h1>
                   <p className="subtitle">{item.description}</p>
+                  {item.note && (
+                    <p className="note">{item.note}</p>
+                  )}
                   <div className="flex card-icons">
                     <div className="flex first-icons">
                       <a href={item.iconLink} className={item.linkClass}></a>
