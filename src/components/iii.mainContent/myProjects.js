@@ -1,4 +1,14 @@
 export const myProjects = [
+    {
+    projectTitle: "One8 Delivery App",
+    description:
+      "A delivery and transportation platform built with Laravel and Vue.js, enabling users to send goods from stores to homes, track shipments in real-time, and request furniture or item moving services.",
+    category: ["laravel", "vuejs", "delivery", "logistics"],
+    imgPath: "./images/one8.png",
+    demo: "https://one8-app.com/",
+    item: "a",
+    note: "Real-world logistics and delivery project."
+  },
   {
     projectTitle: "E-commerce (Tkeys)",
     description:
