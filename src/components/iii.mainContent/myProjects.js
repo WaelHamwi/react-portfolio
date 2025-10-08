@@ -7,7 +7,6 @@ export const myProjects = [
     imgPath: "./images/one8.png",
     demo: "https://one8-app.com/",
     item: "a",
-    note: "Real-world logistics and delivery project."
   },
   {
     projectTitle: "E-commerce (Tkeys)",
