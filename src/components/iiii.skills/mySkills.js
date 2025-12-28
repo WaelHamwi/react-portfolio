@@ -28,7 +28,7 @@ import { faPhp } from "@fortawesome/free-brands-svg-icons";
 export const skills = [
   {
     name: "Filament",
-    imgSrc: "./images/Filament.png",
+    imgSrc: "./images/Filament.webp",
     icon: faLaravel,
     info: "Filament is a robust admin panel for Laravel applications that helps streamline backend development, offering a clean interface and powerful features.",
   },
