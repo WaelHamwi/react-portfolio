@@ -1,5 +1,5 @@
 export const myProjects = [
-    {
+  {
     projectTitle: "One8 Delivery App",
     description:
       "A delivery and transportation platform built with Laravel and Vue.js, enabling users to send goods from stores to homes, track shipments in real-time, and request furniture or item moving services.",
@@ -7,16 +7,18 @@ export const myProjects = [
     imgPath: "./images/one8.png",
     demo: "https://one8-app.com/",
     item: "a",
+    note: "Code is not available for public access.",
   },
   {
     projectTitle: "E-commerce (Tkeys)",
     description:
-      "This project demonstrates advanced features and technologies. However, due to company policies, the code cannot be shared publicly.",
+      "A solo full-stack e-commerce project demonstrating advanced features and modern web technologies",
     category: ["laravel", "Filament", "react", "nextjs", "SEO"],
-    imgPath: "./images/Filament.png",
-    demo: "https://drive.google.com/file/d/1KWVOJkcmIfGf9qQpLtCgfj4-5_jPpzyC/view?usp=drive_link",
+    imgPath: "./images/Filament.jpg",
+    iconLink: "http://nhz-it.com/",
+    demo: "https://drive.google.com/drive/u/0/folders/16mGploHguT80yalrDdS1QuVShfl6XiJa",
     item: "a",
-    note: "Code is not applicable company's policies."
+    note: "Code is not available for public access.",
   },
   {
     projectTitle: "POS and E-Commerce Management System",
@@ -26,6 +28,7 @@ export const myProjects = [
     imgPath: "./images/pos.png",
     demo: "https://drive.google.com/file/d/1nOejjYnO80VHT_sKy1qpp0Y4u4S8iO97/view?usp=drive_link",
     item: "a",
+    note: "Code is not available for public access.",
   },
   {
     projectTitle: "sales management system",
