@@ -22,7 +22,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 use vpn please :
 firebase init hosting
-firebase use react-portfolio-d53ab --add
+firebase use react-portfolio-d53aYb --add
 npm run build
 firebase deploy --only hosting
 >>>>>>>>
