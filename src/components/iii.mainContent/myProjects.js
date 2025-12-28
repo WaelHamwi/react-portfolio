@@ -6,8 +6,9 @@ export const myProjects = [
     category: ["laravel", "vuejs", "delivery", "logistics"],
     imgPath: "./images/one8.png",
     demo: "https://one8-app.com/",
+    linkClass: "icon-link",
     item: "a",
-    note: "Code is not available for public access.",
+    note: "Code is not available for public.",
   },
   {
     projectTitle: "E-commerce (Tkeys)",
@@ -18,7 +19,7 @@ export const myProjects = [
     iconLink: "http://nhz-it.com/",
     demo: "https://drive.google.com/drive/u/0/folders/16mGploHguT80yalrDdS1QuVShfl6XiJa",
     item: "a",
-    note: "Code is not available for public access.",
+    note: "Code is not available for public.",
   },
   {
     projectTitle: "POS and E-Commerce Management System",
@@ -28,7 +29,7 @@ export const myProjects = [
     imgPath: "./images/pos.png",
     demo: "https://drive.google.com/file/d/1nOejjYnO80VHT_sKy1qpp0Y4u4S8iO97/view?usp=drive_link",
     item: "a",
-    note: "Code is not available for public access.",
+    note: "Code is not available for public.",
   },
   {
     projectTitle: "sales management system",
