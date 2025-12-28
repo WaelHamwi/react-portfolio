@@ -27,6 +27,18 @@ npm run build
 firebase deploy --only hosting
 >>>>>>>>
 
+>>>>>>>>quick if already authenticated
+git add .
+git commit -m ""
+git push --force origin main
+
+npm run build
+firebase deploy --only hosting
+>>>>>>>>
+
+
+
+
 
 
 في حال حدوث مشكلة بالكود لايقبل الاستضافة

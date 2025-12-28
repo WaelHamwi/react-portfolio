@@ -14,7 +14,7 @@ export const myProjects = [
     description:
       "A solo full-stack e-commerce project demonstrating advanced features and modern web technologies",
     category: ["laravel", "Filament", "react", "nextjs", "SEO"],
-    imgPath: "./images/Filament.jpg",
+    imgPath: "./images/Filament.webp",
     iconLink: "http://nhz-it.com/",
     linkClass: "icon-link",
     demo: "https://drive.google.com/drive/u/0/folders/16mGploHguT80yalrDdS1QuVShfl6XiJa",
