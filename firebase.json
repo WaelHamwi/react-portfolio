@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "react-portfolio-d53ab",
     "public": "dist",
     "ignore": [
       "firebase.json",

@@ -18,7 +18,7 @@ const HeroSection = () => {
           <div className="icon-verified_user"></div>
         </div>
         <h1 className="title">
-        Senior Full Stack Web Developer & AI Specialist
+        Team Lead | Full Stack Web & Mobile Developer | AI Specialist
         </h1>
         <p className="subtitle">
           Innovating at the intersection of telecommunications, web
