@@ -169,6 +169,17 @@ export const myProjects = [
     item: "m",
   },
   {
+    projectTitle: "Quranic Project",
+    description:
+      "A comprehensive Quranic application built with Expo and React Native, featuring audio recitations, translations, search functionality, and bookmarking capabilities for an immersive Quran reading experience.",
+    category: ["expo", "react-native", "react", "mobile", "quran"],
+    imgPath: "./images/quranic-project.svg",
+    iconGithub: "icon-github",
+    githubLink: "https://github.com/WaelHamwi/Quran-Clinic",
+    demo: "https://drive.google.com/file/d/15T4E4OCad7QuWabZQoKr1QydfSEyNpw8/view?usp=sharing",
+    item: "o",
+  },
+  {
     projectTitle: "React Charts",
     description:
       "A lightweight React app for visualizing JSON data through dynamic and customizable charts. Perfect for quick data analysis and reporting.",

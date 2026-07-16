@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300" role="img" aria-label="Expo">
+  <rect width="740" height="300" fill="#ffffff"/>
+  <!-- Expo chevron mark -->
+  <path d="M120 235
+           C 108 235 100 227 104 216
+           L 172 74
+           C 179 60 191 52 205 52
+           C 219 52 231 60 238 74
+           L 306 216
+           C 310 227 302 235 290 235
+           C 281 235 274 230 270 221
+           L 210 96
+           C 208 92 202 92 200 96
+           L 140 221
+           C 136 230 129 235 120 235 Z"
+        fill="#2f6fed"/>
+  <!-- Expo wordmark -->
+  <text x="360" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="150" font-weight="600" fill="#4b5563">Expo</text>
+</svg>

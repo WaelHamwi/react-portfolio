@@ -183,6 +183,12 @@ export const skills = [
     info: "Convex simplifies serverless application development with a focus on minimal configuration and real-time updates. It integrates seamlessly with frontend frameworks, streamlining the development process.",
   },
   {
+    name: "Claude AI",
+    imgSrc: "./images/claude-ai.png",
+    icon: faRobot,
+    info: "I use Claude AI professionally as a development partner, always adding my own touch on security. It helps me build strong, robust architectures and enhance performance, while I review and harden every solution to ensure secure, production-ready code.",
+  },
+  {
     name: "Alpine.js",
     imgSrc: "./images/alpine.svg",
     icon: faServer,
